@@ -92,11 +92,11 @@ function createRock(x) {
      * the GAME, we want to move it again.
      */
       if (top < GAME_HEIGHT) {
-      window.requestAnimationFrame(moveRock)
-    } else {
-      rock.remove()
-    }
-  }
+         window.requestAnimationFrame(moveRock)
+         } else {
+             rock.remove()
+         }
+       }
   
     /**
      * But if the rock *has* reached the bottom of the GAME,
@@ -106,7 +106,7 @@ function createRock(x) {
 
   // We should kick of the animation of the rock around here
 
-window.requestAnimationFrame(moveRock)
+    window.requestAnimationFrame(moveRock)
 
   
 
